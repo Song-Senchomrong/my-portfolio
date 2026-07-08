@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Portfolio - Song Senchomrong / Diploma View</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="icon" href="./assets/img/icon.jpg" type="image/x-icon" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous" />
+    <!-- Bootstrap Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+      rel="stylesheet" />
+    <!--Font Awesome Icons -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/additional.css" />
+    <link rel="stylesheet" href="./assets/css/animation.css" />
+  </head>
+
+  <body>
+    <header id="navbar">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div id="navContainer" class="container">
+          <a id="activeNavbar" class="navbar-brand fw-bold" href="./">
+            <span class="text-primary">My</span> Portfolio
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="#navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a id="activeNavbar" class="nav-link" href="/#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a id="activeNavbar" class="nav-link" href="/#skills">Skills</a>
+              </li>
+              <li class="nav-item active">
+                <a id="activeNavbar" class="nav-link" href="/#education"
+                  >Education</a
+                >
+              </li>
+              <li class="nav-item">
+                <a id="activeNavbar" class="nav-link" href="/#projects"
+                  >Projects</a
+                >
+              </li>
+              <li class="nav-item">
+                <a id="activeNavbar" class="nav-link" href="/#experience"
+                  >Experience</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="position-relative">
+      <section id="education" class="py-5 bg-light">
+        <div class="container">
+          <h2 class="mb-5 fw-bold text-primary text-center fade-up">
+            High school diploma
+          </h2>
+          <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+              <div
+                class="card h-100 shadow-sm border-0 fade-in-up"
+                style="transition: transform 0.25s"
+                onmouseenter="this.style.transform = 'translateY(-6px)'"
+                onmouseleave="this.style.transform = 'translateY(0)'">
+                <div class="card-body">
+                  <div class="d-flex align-items-start mb-3">
+                    <i
+                      class="bi bi-clipboard2-check-fill text-secondary"
+                      style="font-size: 2rem"></i>
+                    <div class="ms-3">
+                      <h5 class="card-title mb-1">Grade 9 Final Exam</h5>
+                      <small class="text-muted"
+                        >Hun Sen Pochentng Secondary School, 2018 - 2020</small
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer bg-white border-0">
+                  <button
+                    type="button"
+                    data-bs-toggle="modal"
+                    data-bs-target="#diploma"
+                    class="btn btn-sm btn-secondary">
+                    <i class="bi bi-eye me-1"></i>View Certificate
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div
+                class="card h-100 shadow-sm border-0 fade-in-up"
+                style="transition: transform 0.25s"
+                onmouseenter="this.style.transform = 'translateY(-6px)'"
+                onmouseleave="this.style.transform = 'translateY(0)'">
+                <div class="card-body">
+                  <div class="d-flex align-items-start mb-3">
+                    <i
+                      class="bi bi-clipboard2-check-fill text-primary"
+                      style="font-size: 2rem"></i>
+                    <div class="ms-3">
+                      <h5 class="card-title mb-1">
+                        Grade 12 Final Exam (BACII)
+                      </h5>
+                      <small class="text-muted"
+                        >Hun Sen Borey 100 khnong High School, 2021 -
+                        2023</small
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer bg-white border-0">
+                  <button
+                    type="button"
+                    data-bs-toggle="modal"
+                    data-bs-target="#bacii"
+                    class="btn btn-sm btn-primary">
+                    <i class="bi bi-eye me-1"></i>View Certficate
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Modal Section -->
+
+      <!-- Diploma -->
+      <div
+        class="modal fade"
+        id="diploma"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div
+          class="modal-dialog modal-dialog-centered modal-lg"
+          role="document">
+          <div class="modal-content">
+            <div class="modal-header bg-secondary">
+              <h5 class="modal-title text-white" id="exampleModalLongTitle">
+                Grade 9 Certificate
+              </h5>
+            </div>
+            <div class="modal-body MoEYS-certificate">
+              <div
+                class="mt-5 d-flex justify-content-between align-items-center pt-4 border-top">
+                <div class="float-start">
+                  <p class="text-muted small mb-1"></p>
+                  <h2 class="fw-bold text-secondary mb-0 float-start"></h2>
+                </div>
+                <div class="float-end">
+                  <p class="text-muted small mb-1">Final Grade</p>
+                  <h2
+                    class="fw-bold text-secondary mb-0 float-end border border-3 border-secondary py-2 px-3 rounded-5">
+                    E
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer bg-light">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- BACII -->
+      <div
+        class="modal fade"
+        id="bacii"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div
+          class="modal-dialog modal-dialog-centered modal-lg"
+          role="document">
+          <div class="modal-content">
+            <div class="modal-header bg-primary">
+              <h5 class="modal-title" id="exampleModalLongTitle">
+                BACII Certificate
+              </h5>
+            </div>
+            <div class="modal-body MoEYS-certificate">
+              <div class="d-flex justify-content-center row g-2 gap-4">
+                <div
+                  class="col-4 d-flex justify-content-between align-items-center p-3 rounded-4 bg-light shadow-sm transition-hover">
+                  <span class="fw-semibold"
+                    ><i
+                      class="fa-solid fa-calculator me-2 fs-5 text-primary"></i>
+                    Mathematics</span
+                  >
+                  <span
+                    class="badge rounded-pill bg-white text-dark border border-2 border-info fw-bold"
+                    >B</span
+                  >
+                </div>
+
+                <div
+                  class="col-4 d-flex justify-content-between align-items-center p-3 rounded-4 bg-light shadow-sm">
+                  <span class="fw-semibold"
+                    ><i class="fa-solid fa-atom me-2 fs-5 text-primary"></i
+                    >Physics</span
+                  >
+                  <span
+                    class="badge rounded-pill bg-white text-dark border border-2 border-info fw-bold"
+                    >B</span
+                  >
+                </div>
+
+                <div
+                  class="col-4 d-flex justify-content-between align-items-center p-3 rounded-4 bg-light shadow-sm">
+                  <span class="fw-semibold"
+                    ><i class="fa-solid fa-flask me-2 fs-5 text-primary"></i
+                    >Chemistry</span
+                  >
+                  <span
+                    class="badge rounded-pill bg-white text-dark border border-2 border-secondary fw-bold"
+                    >C</span
+                  >
+                </div>
+
+                <div
+                  class="col-4 d-flex justify-content-between align-items-center p-3 rounded-4 bg-light shadow-sm">
+                  <span class="fw-semibold"
+                    ><i class="fa-solid fa-dna me-2 fs-5 text-primary"></i
+                    >Biology</span
+                  >
+                  <span
+                    class="badge rounded-pill bg-white text-dark border border-2 border-primary fw-bold"
+                    >A</span
+                  >
+                </div>
+
+                <div
+                  class="col-4 d-flex justify-content-between align-items-center p-3 rounded-4 bg-light shadow-sm">
+                  <span class="fw-semibold"
+                    ><i class="fa-solid fa-scroll me-2 fs-5 text-primary"></i
+                    >Khmer Literature</span
+                  >
+                  <span
+                    class="badge rounded-pill bg-white text-dark border border-2 border-secondary fw-bold"
+                    >C</span
+                  >
+                </div>
+
+                <div
+                  class="col-4 d-flex justify-content-between align-items-center p-3 rounded-4 bg-light shadow-sm">
+                  <span class="fw-semibold"
+                    ><i class="fa-solid fa-monument me-2 fs-5 text-primary"></i
+                    >History</span
+                  >
+                  <span
+                    class="badge rounded-pill bg-white text-dark border border-2 border-warning fw-bold"
+                    >D</span
+                  >
+                </div>
+
+                <div
+                  class="col-4 d-flex justify-content-between align-items-center p-3 rounded-4 bg-light shadow-sm">
+                  <span class="fw-semibold"
+                    ><i class="fa-solid fa-language me-2 fs-5 text-primary"></i
+                    >Foreign Language</span
+                  >
+                  <span
+                    class="badge rounded-pill bg-white text-dark border border-2 border-secondary fw-bold"
+                    >C</span
+                  >
+                </div>
+              </div>
+
+              <div
+                class="mt-5 d-flex justify-content-between align-items-center pt-4 border-top">
+                <div class="float-start">
+                  <p class="text-muted small mb-1">Percentile Rank</p>
+                  <h2 class="fw-bold text-primary mb-0 float-start">94.187</h2>
+                </div>
+                <div class="float-end">
+                  <p class="text-muted small mb-1">Final Grade</p>
+                  <h2
+                    class="fw-bold text-primary mb-0 float-end border border-3 border-primary py-2 px-3 rounded-5">
+                    B
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer bg-light">
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="bg-dark text-white py-5">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+            <h5 class="text-primary mb-3">My Portfolio</h5>
+            <p class="small text-white-50">
+              A passionate web developer crafting modern, responsive web
+              experiences with Bootstrap and clean code.
+            </p>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+            <h5 class="text-primary mb-3">Quick Links</h5>
+            <ul class="list-unstyled small">
+              <li class="mb-2">
+                <a
+                  href="./#about"
+                  class="text-decoration-none text-white-50 hover-link"
+                  >About</a
+                >
+              </li>
+              <li class="mb-2">
+                <a
+                  href="./#education"
+                  class="text-decoration-none text-white-50 hover-link"
+                  >Education</a
+                >
+              </li>
+              <li class="mb-2">
+                <a
+                  href="./#projects"
+                  class="text-decoration-none text-white-50 hover-link"
+                  >Projects</a
+                >
+              </li>
+              <li class="mb-2">
+                <a
+                  href="./#contact"
+                  class="text-decoration-none text-white-50 hover-link"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Social Media -->
+          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+            <h5 class="text-primary mb-3">Connect with :</h5>
+            <div class="d-flex gap-3">
+              <a
+                href="https://github.com/LordSatori"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="GitHub"
+                class="btn btn-outline-light btn-sm rounded-circle d-flex align-items-center justify-content-center">
+                <i class="bi bi-github"></i>
+              </a>
+              <a
+                href="https://discord.com/users/1219930199043342366"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Discord"
+                class="btn btn-outline-light btn-sm rounded-circle d-flex align-items-center justify-content-center">
+                <i class="bi bi-discord"></i>
+              </a>
+              <a
+                href="https://www.facebook.com/share/17JyXP4Jwm/"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Facebook"
+                class="btn btn-outline-light btn-sm rounded-circle d-flex align-items-center justify-content-center">
+                <i class="bi bi-facebook"></i>
+              </a>
+              <a
+                href="https://x.com/SatoriTakaneki"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Twitter/X"
+                class="btn btn-outline-light btn-sm rounded-circle d-flex align-items-center justify-content-center">
+                <i class="bi bi-twitter-x"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/callmelordsatori?igsh=MW5pNXk5Y3k2aHk3Nw=="
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Instagram"
+                class="btn btn-outline-light btn-sm rounded-circle d-flex align-items-center justify-content-center">
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a
+                href="https://www.tiktok.com/@satori8694?_r=1&_t=ZS-94D8QVRUlWh"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="TikTok"
+                class="btn btn-outline-light btn-sm rounded-circle d-flex align-items-center justify-content-center">
+                <i class="bi bi-tiktok"></i>
+              </a>
+              <a
+                href="@ThatsmeRong"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Telegram"
+                class="btn btn-outline-light btn-sm rounded-circle d-flex align-items-center justify-content-center">
+                <i class="bi bi-telegram"></i>
+              </a>
+              <a
+                target="_blank"
+                href="mailto:satoritakaneki5@gmail.com"
+                rel="noopener noreferrer"
+                title="Email"
+                class="btn btn-outline-light btn-sm rounded-circle d-flex align-items-center justify-content-center">
+                <i class="bi bi-envelope"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <hr class="bg-secondary" />
+
+        <!-- Footer Bottom -->
+        <div class="row align-items-center">
+          <div class="col-md-6 text-center text-md-start">
+            <p class="small mb-0">
+              <span class="fw-bold text-primary">&copy;</span>
+              <span id="getYear" class="fw-bold"></span> Song Senchomrong
+              <span class="text-primary">(Satori)</span>. All rights reserved.
+            </p>
+          </div>
+        </div>
+        <div style="height: 25px"></div>
+      </div>
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"></script>
+
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/animation.js"></script>
+  </body>
+</html>
