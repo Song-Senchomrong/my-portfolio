@@ -92,3 +92,33 @@ canvas {
   position: relative;
   margin-bottom: 20px;
 }
+
+.gpa-chart-size {
+  width: 100px;
+  height: 100px;
+}
+
+.skill-icon {
+  font-size: 75px;
+}
+
+.subject-col {
+  flex: 0 0 auto !important;
+  width: 33.33333% !important;
+}
+
+@media (max-width: 768px) {
+  .skill-icon {
+    font-size: 50px;
+  }
+
+  .subject-col {
+    flex: 0 0 auto !important;
+    width: 100% !important;
+  }
+
+  .gpa-chart-size {
+    width: 90px;
+    height: 90px;
+  }
+}
