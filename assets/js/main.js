@@ -85,9 +85,9 @@ const courseData = [
   { id: "MED372K", percentage: 37 },
   { id: "ITE302K", percentage: 100 },
   { id: "BUS202K", percentage: 75 },
-  { id: "ITE303K", percentage: 0 },
+  { id: "ITE303K", percentage: 83 },
 
-  // Term 7
+  // Term 8
   { id: "ITE408K", percentage: 0 },
   { id: "ITE307K", percentage: 0 },
   { id: "ITE306K", percentage: 0 },
